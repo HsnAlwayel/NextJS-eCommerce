@@ -1,18 +1,20 @@
 import Link from "next/link";
 import Nav from "./Nav";
+import { HeaderStyles, Logo } from "./styles/Header";
 import Title from "./styles/Title";
+
 export default function Header() {
   return (
-    <header>
+    <HeaderStyles>
       <div className="bar">
-        <Title>
+        <Logo>
           <Link href="/">Sick fits</Link>
-        </Title>
+        </Logo>
       </div>
       <div className="sub-bar">
         <p>Search</p>
       </div>
       <Nav />
-    </header>
+    </HeaderStyles>
   );
 }

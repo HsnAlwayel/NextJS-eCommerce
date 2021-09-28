@@ -1,5 +1,7 @@
-export default function Products(){
-    return <div>
-        <p>Hello!</p>
+export default function Products() {
+  return (
+    <div>
+      <p>Hello! Products</p>
     </div>
+  );
 }
